@@ -1,0 +1,14 @@
+FROM neilpang/acme.sh
+
+MAINTAINER haohaolee <hayatelee@gmail.com>
+
+RUN apk add --no-cache docker-cli
+
+ADD start.sh /start.sh
+
+EXPOSE 80/tcp
+
+ENTRYPOINT ["/start.sh"]
+
+CMD ["daemon"]
+

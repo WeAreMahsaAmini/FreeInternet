@@ -1,0 +1,29 @@
+version: "3.7"
+
+services:
+    acme.sh:
+        build:
+            context: ./build
+            dockerfile: Dockerfile-acme
+        ports:
+            - "80:80/tcp"
+        volumes:
+            - ./cert:${CERT_DIR}
+            - /var/run/docker.sock:/var/run/docker.sock
+        restart: always
+        env_file: .env
+        environment:
+            - "RELOADCMD=docker restart ${SS_CONTAINER}"
+
+    ss-server:
+        container_name: ${SS_CONTAINER}
+        image: acrisliu/shadowsocks-libev
+        command:
+            - "/start-server.sh"
+        volumes:
+            - ./scripts/start-server.sh:/start-server.sh:ro
+            - ./cert:${CERT_DIR}:ro
+        restart: on-failure
+        env_file: .env
+        ports:
+            - "443:4443/tcp"
