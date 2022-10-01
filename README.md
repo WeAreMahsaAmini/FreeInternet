@@ -20,11 +20,20 @@ If you can't access Play Store alternatively you can download APK files from Sha
 
  [V2ray Plugin APK](https://github.com/shadowsocks/v2ray-plugin-android/releases/download/v1.3.3/v2ray--universal-1.3.3.apk)
 
-- Copy one of the **Android** config text from the [list of domains](protocols/shadowsocks-v2ray-tls/CONFIGS.md) and open the Shadowsocks app, tab plus button from upper right corner and tab "Import From Clipboard".
+- first Copy one of the **Android** config text from the [list of domains](protocols/shadowsocks-v2ray-tls/CONFIGS.md) and open the Shadowsocks app.
 
 `Example Config:
 ss://YWVzLTI1Ni1nY206WDhDZWN1Y2QyTUZtclJYVGJCcmk@aiohekl.monster:443?plugin=v2ray-plugin%3Bpath%3D%2Fredis%3Bhost%3Daiohekl.monster%3Btls`
+
+- tab plus button from upper right corner and tab.
+<img src="https://user-images.githubusercontent.com/47558577/193402425-7c86138f-fa2b-4087-af95-336215916295.jpg" height="500">
+
+- the tap on the  "Import From Clipboard" item.
+<img src="https://user-images.githubusercontent.com/47558577/193402427-275b568c-d159-4dbe-9fee-5a60570e95d9.jpg" height="500">
+
 - Select the newly added server from the list and tab paper plane button.
+<img src="https://user-images.githubusercontent.com/47558577/193402430-40aab8c4-ba14-46bf-8db0-1e87068187dd.jpg" height="500">
+
 - Done.
 
 ### IOS
