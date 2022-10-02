@@ -6,7 +6,7 @@ The goal of this project is to provide free internet access to Iranian people by
 
 <div dir="rtl">
 
-# [آموزش اتصال](guides/README.md)
+# [آموزش اتصال به زبان فارسی (اینجا کلیک کنید)](guides/README.md)
 
 </div>
 
