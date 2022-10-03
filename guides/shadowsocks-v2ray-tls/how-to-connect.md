@@ -44,7 +44,7 @@
 
  [V2ray Plugin APK](https://github.com/shadowsocks/v2ray-plugin-android/releases/download/v1.3.3/v2ray--universal-1.3.3.apk)
 
-2. کد زیر را رو کپی کنید.
+2. یکی از کدهای زیر را کپی کنید.
 3. وارد برنامه shadowsocks بشید.
 4. بر روی دکمه (کاغذ با علامت +) کلیک کنید. گزینه ی Import From Clipboard رو بزنید.
 5. سپس پس از این کار سرور جدیدی به نمایش میاد. روی اون سرور کلیک کنید و در انتها علامت موشک کاغذی در پایین صفحه رو بزنید. 
@@ -53,3 +53,6 @@
 
 
 > ss://YWVzLTI1Ni1nY206WDhDZWN1Y2QyTUZtclJYVGJCcmk@aiohekl.monster:443?plugin=v2ray-plugin%3Bpath%3D%2Fredis%3Bhost%3Daiohekl.monster%3Btls
+
+> ss://YWVzLTI1Ni1nY206TWFoc2FBbWluaQ@gimpmie.hair:443?plugin=v2ray-plugin%3Bpath%3Drabbitmq%3Bhost%3Dgimpmie.hair%3Btls
+
