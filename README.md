@@ -37,7 +37,7 @@ ss://YWVzLTI1Ni1nY206WDhDZWN1Y2QyTUZtclJYVGJCcmk@aiohekl.monster:443?plugin=v2ra
 - Copy one of the **IOS** config text from the [list of domains](protocols/shadowsocks-v2ray-tls/CONFIGS.md) and open the Shadowrocket app, the app will detect the config and will open a popup, tab add.
 
 `Example Config:
-ss://YWVzLTI1Ni1nY206WDhDZWN1Y2QyTUZtclJYVGJCcmlAYWlvaGVrbC5tb25zdGVyOjQ0Mw?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yZWRpcyIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0IjoiYWlvaGVrbC5tb25zdGVyIiwibW9kZSI6IndlYnNvY2tldCIsInRscyI6dHJ1ZX0`
+ss://YWVzLTI1Ni1nY206WDhDZWN1Y2QyTUZtclJYVGJCcmk@aiohekl.monster:443?plugin=v2ray-plugin%3Bpath%3D%2Fredis%3Bhost%3Daiohekl.monster%3Btls`
 - From **Global Routing** section select **Proxy**.
 - Select the newly added server from the list and toggle the connection.
 - Done.
