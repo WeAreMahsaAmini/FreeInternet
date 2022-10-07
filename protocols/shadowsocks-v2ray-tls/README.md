@@ -11,12 +11,12 @@
 7. From the "HTTPS settings" section, activate the "Activate HTTPS" option.
 8. In the management panel of your domain, set the nameservers of your domsain to those of Arvan (currently `o.ns.arvancdn.co` and `f.ns.arvancdn.org`).
 9. On the VPS, install docker and docker-compose.
-10. Clone this repo and edit the .env file.
-11. Open a pull request to share your server config.
+10. Open ports 80 TCP ingress and 443 TCP ingress on your server (security group/firewall)
+11. Clone this repo and edit the .env file.
+12. Open a pull request to share your server config.
 
 `docker-compose build`
 
 `docker-compose up -d`
-
 
 
