@@ -12,9 +12,15 @@ ss://YWVzLTI1Ni1nY206TWFoc2FBbWluaQ@gimpmie.hair:443?plugin=v2ray-plugin%3Bpath%
 
 
 # tmug.ir
-## Android and iOS:
-ss://YWVzLTI1Ni1nY206OTVDRTdCNzQtQ0Y4Ni00NUQyLUE0NEUtQzAzOUE1QkQxMjY4@tmug.ir:443?plugin=v2ray-plugin%3Bpath%3D%2Frabbitmq%3Bloglevel%3Dnone%3Bhost%3Dtmug.ir%3Btls
+## Android
+> ss://YWVzLTI1Ni1nY206OTVDRTdCNzQtQ0Y4Ni00NUQyLUE0NEUtQzAzOUE1QkQxMjY4@tmug.ir:443?plugin=v2ray-plugin%3Bpath%3D%2Frabbitmq%3Bloglevel%3Dnone%3Bhost%3Dtmug.ir%3Btls
+
+## iOS
+> ss://YWVzLTI1Ni1nY206OTVDRTdCNzQtQ0Y4Ni00NUQyLUE0NEUtQzAzOUE1QkQxMjY4QHRtdWcuaXI6NDQz?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yYWJiaXRtcSIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0IjoidG11Zy5pciIsIm1vZGUiOiJ3ZWJzb2NrZXQiLCJ0bHMiOnRydWV9
 
 # golechai.ir
-## Android and iOS:
-ss://YWVzLTI1Ni1nY206OTVDRTdCNzQtQ0Y4Ni00NUQyLUE0NEUtQzAzOUE1QkQxMjY4@golechai.ir:443?plugin=v2ray-plugin%3Bpath%3D%2Frabbitmq%3Bloglevel%3Dnone%3Bhost%3Dgolechai.ir%3Btls
+## Android
+> ss://YWVzLTI1Ni1nY206OTVDRTdCNzQtQ0Y4Ni00NUQyLUE0NEUtQzAzOUE1QkQxMjY4@golechai.ir:443?plugin=v2ray-plugin%3Bpath%3D%2Frabbitmq%3Bloglevel%3Dnone%3Bhost%3Dgolechai.ir%3Btls
+
+## iOS
+> ss://YWVzLTI1Ni1nY206OTVDRTdCNzQtQ0Y4Ni00NUQyLUE0NEUtQzAzOUE1QkQxMjY4QGdvbGVjaGFpLmlyOjQ0Mw?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yYWJiaXRtcSIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0IjoiZ29sZWNoYWkuaXIiLCJtb2RlIjoid2Vic29ja2V0IiwidGxzIjp0cnVlfQ
