@@ -25,14 +25,14 @@ If you can't access Play Store alternatively you can download APK files from Sha
 `Example Config:
 ss://YWVzLTI1Ni1nY206WDhDZWN1Y2QyTUZtclJYVGJCcmk@aiohekl.monster:443?plugin=v2ray-plugin%3Bpath%3D%2Fredis%3Bhost%3Daiohekl.monster%3Btls`
 
-- tab plus button from upper right corner and tab.
+- Tap the plus button from the upper right corner and tab.
 <img src="https://user-images.githubusercontent.com/47558577/193402425-7c86138f-fa2b-4087-af95-336215916295.jpg" height="500">
 
-- the tap on the  "Import From Clipboard" item.
+- Then tap the  "Import From Clipboard" item.
 <img src="https://user-images.githubusercontent.com/47558577/193402427-275b568c-d159-4dbe-9fee-5a60570e95d9.jpg" height="500">
 
 - Select the newly added server from the list and tab paper plane button.
-<img src="https://user-images.githubusercontent.com/47558577/193402430-40aab8c4-ba14-46bf-8db0-1e87068187dd.jpg" height="500">
+<img src="https://user-images.githubusercontent.com/47558577/194591127-907be7ae-961b-4902-b376-61b58075c88d.jpg" height="500">
 
 - Done.
 
