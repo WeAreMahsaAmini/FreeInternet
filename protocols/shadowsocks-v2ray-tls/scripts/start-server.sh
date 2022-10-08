@@ -16,8 +16,7 @@ ARGS="--plugin v2ray-plugin --plugin-opts server;tls;fast-open;host=$DOMAIN;path
 android_url () {
     encoded_M_P=$(echo "$METHOD:$PASSWORD" | base64);
     encoded_M_P=$(echo "$encoded_M_P" | sed -e "s/=//g")
-    android_plugin_opts=$(printf %s ";tls;host=$DOMAIN;path=${URL_PATH};loglevel=none"|jq -sRr @uri)
-    ANDROID_URL="ss://$encoded_M_P@$DOMAIN:443?plugin=v2ray-plugin$android_plugin_opts"
+    ANDROID_URL="ss://$encoded_M_P@$DOMAIN:443?plugin=v2ray-plugin%3Bpath%3D%2F${URL_PATH}%3Bhost%3D$DOMAIN%3Btls"
 }
 ios_url () {
     ios_encoded_M_P=$(echo "$METHOD:$PASSWORD@$DOMAIN:443" | base64);
