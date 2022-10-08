@@ -14,12 +14,12 @@ fi
 ARGS="--plugin v2ray-plugin --plugin-opts server;tls;fast-open;host=$DOMAIN;path=${URL_PATH};cert=$CERT_PATH;key=$KEY_PATH -u"
 
 android_url () {
-    encoded_M_P=$(echo "$METHOD:$PASSWORD" | base64);
+    encoded_M_P=$(echo -n "$METHOD:$PASSWORD" | base64);
     encoded_M_P=$(echo "$encoded_M_P" | sed -e "s/=//g")
-    ANDROID_URL="ss://$encoded_M_P@$DOMAIN:443?plugin=v2ray-plugin%3Bpath%3D%2F${URL_PATH}%3Bhost%3D$DOMAIN%3Btls"
+    ANDROID_URL="ss://$encoded_M_P@$DOMAIN:443?plugin=v2ray-plugin%3Bpath%3D%2F${V2RAY_PATH}%3Bmux%3D2%3Bloglevel%3Dnone%3Bhost%3D$DOMAIN%3Btls"
 }
 ios_url () {
-    ios_encoded_M_P=$(echo "$METHOD:$PASSWORD@$DOMAIN:443" | base64);
+    ios_encoded_M_P=$(echo -n "$METHOD:$PASSWORD@$DOMAIN:443" | base64);
     ios_encoded_M_P=$(echo "$ios_encoded_M_P" | sed -e "s/=//g")
     ios_plugin_opts=$(echo "{\"path\":\"\\$URL_PATH\",\"mux\":true,\"tfo\":true,\"host\":\"$DOMAIN\",\"mode\":\"websocket\",\"tls\":true}" | base64 -w 0);
     ios_plugin_opts=$(echo "$ios_plugin_opts" | sed -e "s/=//g")
