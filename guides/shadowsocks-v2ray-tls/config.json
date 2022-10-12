@@ -1,0 +1,11 @@
+{
+    "server": "DOMAIN",
+    "server_port": 443,
+    "password": "PASSWORD",
+    "local_address": "0.0.0.0",
+    "local_port": 1080,
+    "timeout": 600,
+    "method": "aes-256-gcm",
+    "plugin":"v2ray-plugin",
+    "plugin_opts": "tls;host=DOMAIN;loglevel=none;path=/rabbitmq"
+}
