@@ -1,3 +1,4 @@
+
 # shadowsocks-v2ray-tls
 
 ## Setup guide
@@ -48,21 +49,26 @@ After your domain nameservers changed successfully (depending on the registrar, 
 2. Install docker and docker-compose. Here's a [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04) on how to do it for Ubuntu.
 3. Open ports 80 TCP ingress and 443 TCP ingress on your server (security group/firewall)
 
-4. Clone this repo and `cd` inside the folder.
+4. Clone the below repo and `cd` inside the folder.
 
-`git clone https://github.com/WeAreMahsaAmini/FreeInternet.git`
+```bash
+git clone https://github.com/Arman92/shadowsocks-v2ray-tls-ws.git
+cd shadowsocks-v2ray-tls-ws
+```
 
 5. Edit the `.env` file.
 
-```
+```bash
 # Replace your_domain with the domain you bought, without http, or www in front of it, e.g.: google.com
-DOMAIN=your_domain
+DOMAIN=your-domain.com
 
+# change to a secure password
+PASSWORD=some-strong-password
 ```
 
-6. Run these command inside the folder:
+6. Build the docker image and run the containers with below commands:
 
-```
+```bash
 docker-compose build
 
 docker-compose up -d
@@ -70,9 +76,9 @@ docker-compose up -d
 
 7. Since the container is running in detached mode, you need to check the logs to see the config for your VPN server. (Android and iOS urls)
 
-- Run `docker container ls` to see all running containers
-- Copy the `CONTAINER_ID` for the container with name similar to `shadowsocks-v2ray-tls_acme.sh`.
-- Run `docker logs YOUR_CONTAINER_ID` to see the logs of the container.
+```bash
+docker-compose logs -f --tail 500
+```
 
 ### 4. Share
 
