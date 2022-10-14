@@ -62,7 +62,7 @@
 
 # لینوکس
 
-۱. نرم‌افزار shadowsocks-libev را نصب کنید. برای نصب این برنامه می‌توانید از پکج منجنر استفاده کنید. مثلاً در اوبونتو با `sudo apt install shadowsocks-libev`. همچنین می‌توانید آخرین ورژن برنامه را از [این محل](https://github.com/shadowsocks/shadowsocks-libev/releases) دریافت کنید. برای چک کردن این که آیا نرم‌افزار نصب است، دستور `ss-local` را در ترمینال امتحان کنید.
+۱. نرم‌افزار shadowsocks-libev را نصب کنید. برای نصب این برنامه می‌توانید از پکیج منیجر استفاده کنید. مثلاً در اوبونتو با `sudo apt install shadowsocks-libev`. همچنین می‌توانید آخرین ورژن برنامه را از [این محل](https://github.com/shadowsocks/shadowsocks-libev/releases) دریافت کنید. برای چک کردن این که آیا نرم‌افزار نصب است، دستور `ss-local` را در ترمینال امتحان کنید.
 
 ۲. آخرین ورژن پلاگین v2ray را از [این محل](https://github.com/shadowsocks/v2ray-plugin/releases) دانلود کنید. داخل فایل دانلود شده یک فایل اجرایی وجود دارد. با فرض این که شما ورژن amd64 پلاگین را دانلود کرده باشید نام این فایل v2ray-plugin_linux_amd64 است. اگر در ترمینال، در دایرکتوری جاری این فایل وجود داشته باشد، می‌توانید آن را با اجرای این دستور در محل مناسب نصب کنید: `sudo install v2ray-plugin_linux_amd64 /usr/local/bin/v2ray-plugin`.
 
@@ -89,13 +89,12 @@
  - نام دامنه را در فیلدهای server و plugin_opts با مقدار موردنظر خود جایگزین کنید.
  - کلمه عبور را در فیلد password اصلاح کنید.
 
-برای استخراج این جزئیات از URLهای موجود در [لیست سرورها](CONFIGS.md) می‌توانید از اسکریپت ss-link-to-json.py استفاده کنید.
+برای استخراج این جزئیات از URLهای موجود در [لیست سرورها](CONFIGS.md) می‌توانید از این [اسکریپت](/utils/ss-link-to-json/ss-link-to-json.py) استفاده کنید.
 
 ۴. شدوساکس را با این دستور اجرا کنید: ‍`ss-local -c ~/shadowsocks.json`.
-
 بعد از این باید شدوساکس به صورت یک پروکسی SOCKS روی پورت 1080 در دسترس باشد. برای استفاده از این پروکسی در مرورگر می‌توانید از افزونه FoxyProxy در کروم و فایرفاکس استفاده کنید.
 
-۵. در صورتی که نیاز به پروکسی http دارد می‌توانید از برنامه privoxy استفاده کنید. ابتدا privoxy را نصب کنید. در اوبونتو می‌توانید از دستور `sudo apt install privoxy` استفاده کنید. سپس خطوط زیر را در فایل /etc/privoxy/config اضافه کنید (اگر فایل وجود ندارد، آن را ایجاد کنید):
+۵. در صورتی که نیاز به پروکسی http دارید می‌توانید از برنامه privoxy استفاده کنید که میتواند http را به socks تبدیل کند. ابتدا privoxy را نصب کنید. در اوبونتو می‌توانید از دستور `sudo apt install privoxy` استفاده کنید. سپس خطوط زیر را در فایل /etc/privoxy/config اضافه کنید (اگر وجود نداشتند):
 
 ```
 listen-address  127.0.0.1:8118
@@ -106,9 +105,9 @@ forward-socks5t     /               127.0.0.1:1080 .
 
 ```
 export HTTPS_PROXY=http://127.0.0.1:8118/
-export HTTP_PROXY=http://127.0.0.1:8181/
+export HTTP_PROXY=http://127.0.0.1:8118/
 export https_proxy=http://127.0.0.1:8118/
-export http_proxy=http://127.0.0.1:8181/
+export http_proxy=http://127.0.0.1:8118/
 export ALL_PROXY=socks://127.0.0.1:1080/
 export all_proxy=socks://127.0.0.1:1080/
 ```
