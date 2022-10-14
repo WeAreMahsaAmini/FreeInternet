@@ -95,7 +95,7 @@
 
 بعد از این باید شدوساکس به صورت یک پروکسی SOCKS روی پورت 1080 در دسترس باشد. برای استفاده از این پروکسی در مرورگر می‌توانید از افزونه FoxyProxy در کروم و فایرفاکس استفاده کنید.
 
-۵. در صورتی که نیاز به پروکسی http دارد می‌توانید از برنامه privoxy استفاده کنید. ابتدا privoxy را نصب کنید. در اوبونتو می‌توانید از دستور `sudo apt install privoxy` استفاده کنید. سپس خطوط زیر را در فایل /etc/privoxy/config اضافه کنید (اگر فایل وجود ندارد، آن را ایجاد کنید):
+۵. در صورتی که نیاز به پروکسی http دارد می‌توانید از برنامه privoxy استفاده کنید. ابتدا privoxy را نصب کنید. در اوبونتو می‌توانید از دستور `sudo apt install privoxy` استفاده کنید. سپس خطوط زیر را در فایل /etc/privoxy/config اضافه کنید (اگر وجود نداشتند):
 
 ```
 listen-address  127.0.0.1:8118
@@ -106,9 +106,9 @@ forward-socks5t     /               127.0.0.1:1080 .
 
 ```
 export HTTPS_PROXY=http://127.0.0.1:8118/
-export HTTP_PROXY=http://127.0.0.1:8181/
+export HTTP_PROXY=http://127.0.0.1:8118/
 export https_proxy=http://127.0.0.1:8118/
-export http_proxy=http://127.0.0.1:8181/
+export http_proxy=http://127.0.0.1:8118/
 export ALL_PROXY=socks://127.0.0.1:1080/
 export all_proxy=socks://127.0.0.1:1080/
 ```
