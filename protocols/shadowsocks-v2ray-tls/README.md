@@ -52,8 +52,8 @@ After your domain nameservers changed successfully (depending on the registrar, 
 4. Clone the below repo and `cd` inside the folder.
 
 ```bash
-git clone https://github.com/Arman92/shadowsocks-v2ray-tls-ws.git
-cd shadowsocks-v2ray-tls-ws
+git clone https://github.com/WeAreMahsaAmini/FreeInternet.git
+cd protocols/shadowsocks-v2ray-tls/
 ```
 
 5. Edit the `.env` file.
