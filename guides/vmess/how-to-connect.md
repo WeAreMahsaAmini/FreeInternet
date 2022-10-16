@@ -5,8 +5,8 @@ Install the appropriate client based on your platform:
 | Linux/Windows | nekoray | https://github.com/MatsuriDayo/nekoray/releases |
 | Android | v2ray | https://play.google.com/store/apps/details?id=com.v2ray.ang |
 | iOS   | ShadowLink | https://apps.apple.com/us/app/shadowlink-shadowsocks-vpn/id1439686518 |
-| Mac | V2RayX  | https://github.com/Cenmrev/V2RayX/releases |
-| Mac | Qv2ray  | https://github.com/v2fly/v2ray-core/releases/ |
+| macOS GUI | V2RayX  | https://github.com/Cenmrev/V2RayX/releases |
+| macOS | Qv2ray  | https://github.com/v2fly/v2ray-core/releases/ |
 
 ## 2-
 Use these settings to connect:
