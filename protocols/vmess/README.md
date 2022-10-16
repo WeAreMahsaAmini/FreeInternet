@@ -1,50 +1,52 @@
-# VMess proxy and Traffic transfer (from Iranian server to servers outside Iran)
-# #مهسا_امینی   #MahsaAmini
+# VMess Proxy with an IR server as a router 
 
-## Non-Iranian server commands:
-## 1-
+In this toturial it's assumed that you already have a server (VPS) in Iran and another one outside of the Iran.
+
+Your server inside Iran will act as a router. It's only job is to route traffic from within the country to the main server (non-IR) which hosts the actual Vmess proxy.
+
+All commands are base on debian-based linux distros. e.g. Ubuntu.
+
+Note that for simplicity, there is no authentication mechanism applied.
+
+### #MahsaAmini
+
+## On your non-IR server:
+
+### 1-
 ```sh
 sudo apt update
 ```
-## 2-
+### 2-
 ```sh
 sudo apt upgrade -y
 ```
-## 3-
-```sh
-sudo apt install neofetch
-```
-## 4-
-```sh
-neofetch
-```
-## 5-
+### 3-
 ```sh
 nano docker-compose.yaml
 ```
 
-Add the following commands to the `docker-compose.yaml` file and save it
+Add the following to the `docker-compose.yaml` file and save:
 ```sh
-version: '3'
+version: "3"
 services:
-  v2ray:
+  v2ray443:
     image: v2fly/v2fly-core
     restart: always
     network_mode: host
     environment:
       - V2RAY_VMESS_AEAD_FORCED=false
     volumes:
-        - ./config.json:/etc/v2ray/config.json:ro
+      - ./config.json:/etc/v2ray/config.json:ro
 ```
-## 6-
+### 4-
 ```sh
 nano config.json
 ```
-go to `https://www.uuidgenerator.net/version1` and make random id After that, replace the same ID with `PASTE YOUR ID HERE` in the following commands, then put them in the `config.json` file and save it.
+Add the following to the `config.json` file and save:
 ```sh
 {
   "log": {
-    "loglevel": "info"
+    "loglevel": "warning"
   },
   "inbounds": [
     {
@@ -56,7 +58,7 @@ go to `https://www.uuidgenerator.net/version1` and make random id After that, re
       "settings": {
         "clients": [
           {
-            "id": "PASTE YOUR ID HERE",
+            "id": "xxx-xxx-xxx",
             "level": 1,
             "alterId": 0,
             "email": "client@example.com"
@@ -103,71 +105,84 @@ go to `https://www.uuidgenerator.net/version1` and make random id After that, re
   ]
 }
 ```
-## 7-
+
+Navigate to `https://www.uuidgenerator.net/version1` and grab a UUID V1, Then replace the `YOUR_NEW_UUID` in the following command with your newly generated UUID and run:
+
 ```sh
-curl https://get.docker.com | sh
+sed -i 's/xxx-xxx-xxx/YOUR_NEW_UUID/g' ./config.json
 ```
-## 8-
+
+Note that `docker-compose.yaml` and `config.json` files need to be under the same directory.
+
+
+### 5-
+Install docker and docker-compose:
 ```sh
-sudo apt install docker-compose
+sudo apt install docker docker-compose
 ```
-## 9-
+### 6-
+Start the Vmess server:
 ```sh
 docker-compose up -d
 ```
-## Iran server commands:
-## 1-
+## On your IR server:
+### 1-
 ```sh
 sudo apt update
 ```
-## 2-
+### 2-
 ```sh
 sudo apt upgrade -y
 ```
-## 3-
+### 3-
 ```sh
 sudo apt install iptables-persistent
 ```
 ```sh
-nano /etc/iptables/rules.v4
+sudo nano /etc/iptables/rules.v4
 ```
-Replace IP server outside Iran with `XX.XX.XX.XX` in the following commands, then save the file
+Add the following to the `rules.v4` file and save:
 ```sh
 *filter
 :INPUT ACCEPT [0:0]
 :FORWARD ACCEPT [0:0]
 :OUTPUT ACCEPT [0:0]
--A FORWARD -d XX.XX.XX.XX -p tcp -m tcp --dport 80 -j ACCEPT
--A FORWARD -d XX.XX.XX.XX -p udp -m udp --dport 80 -j ACCEPT
+-A FORWARD -d xx.xx.xx.xx -p tcp -m tcp --dport 80 -j ACCEPT
+-A FORWARD -d xx.xx.xx.xx -p udp -m udp --dport 80 -j ACCEPT
 COMMIT
 *nat
 :PREROUTING ACCEPT [0:0]
 :INPUT ACCEPT [0:0]
 :OUTPUT ACCEPT [0:0]
 :POSTROUTING ACCEPT [0:0]
--A PREROUTING -p tcp -m tcp --dport 80 -j DNAT --to-destination XX.XX.XX.XX
--A PREROUTING -p udp -m udp --dport 80 -j DNAT --to-destination XX.XX.XX.XX
--A POSTROUTING -d XX.XX.XX.XX -p tcp -m tcp --dport 80 -j MASQUERADE
--A POSTROUTING -d XX.XX.XX.XX -p udp -m udp --dport 80 -j MASQUERADE
+-A PREROUTING -p tcp -m tcp --dport 80 -j DNAT --to-destination xx.xx.xx.xx
+-A PREROUTING -p udp -m udp --dport 80 -j DNAT --to-destination xx.xx.xx.xx
+-A POSTROUTING -d xx.xx.xx.xx -p tcp -m tcp --dport 80 -j MASQUERADE
+-A POSTROUTING -d xx.xx.xx.xx -p udp -m udp --dport 80 -j MASQUERADE
 COMMIT
 ```
-## 4-
+
+Replace `NON_IR_IP` with your non-IR server IP address and run the command:
 ```sh
-nano /etc/sysctl.conf
+sudo sed -i 's/xx.xx.xx.xx/NON_IR_IP/g' /etc/iptables/rules.v4
 ```
-Add the following command to the beginning of the file and save
+This will replace all occurences of `xx.xx.xx.xx` with the actual IP address of your non-IR server.
+
+### 4-
+```sh
+sudo nano /etc/sysctl.conf
+```
+Add the following line to the beginning of the file (or just find it and uncomment it) and save:
 ```sh
 net.ipv4.ip_forward=1
 ```
-## 5-
+### 5-
+Run next two commands to make the changes take effect right away:
 ```sh
-sysctl -p
+sudo sysctl -p
 ```
-## 6-
 ```sh
-sysctl --system
+sudo systemctl restart iptables.service
 ```
-## 7-
-```sh
-sudo reboot
-```
+
+Now head over to the guides directory for instructions on how to connect to your server using a Vmess client.
