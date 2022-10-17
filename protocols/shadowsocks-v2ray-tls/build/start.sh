@@ -2,6 +2,7 @@
 
 set -x
 
+CERT_DIR=/cert
 
 if [ "$1" == "daemon" ]; then
 

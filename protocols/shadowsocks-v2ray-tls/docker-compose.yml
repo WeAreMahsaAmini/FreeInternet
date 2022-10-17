@@ -8,22 +8,36 @@ services:
         ports:
             - "80:80/tcp"
         volumes:
-            - ./cert:${CERT_DIR}
+            - ./cert:/cert
             - /var/run/docker.sock:/var/run/docker.sock
         restart: always
         env_file: .env
         environment:
-            - "RELOADCMD=docker restart ${SS_CONTAINER}"
+            - "RELOADCMD=docker restart ${NGINX_CONTAINER}"
 
     ss-server:
-        container_name: ${SS_CONTAINER}
         image: acrisliu/shadowsocks-libev
         command:
             - "/start-server.sh"
         volumes:
             - ./scripts/start-server.sh:/start-server.sh:ro
-            - ./cert:${CERT_DIR}:ro
         restart: on-failure
         env_file: .env
+
+    nginx:
+        container_name: ${NGINX_CONTAINER}
+        image: nginx:1.23.1
+        volumes:
+          - ./nginx/templates:/etc/nginx/templates:ro
+          - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+          - ./cert:/etc/nginx/cert:ro
+          - ./scripts/wait-for-cert.sh:/wait-for-cert.sh
+        restart: on-failure
         ports:
-            - "443:4443/tcp"
+          - "443:443/tcp"
+        env_file: .env
+        ulimits:
+          nofile:
+            soft: 65535
+            hard: 65535
+        entrypoint: ["/wait-for-cert.sh", "/docker-entrypoint.sh", "nginx"]
