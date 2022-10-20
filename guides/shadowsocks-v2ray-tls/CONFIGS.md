@@ -44,3 +44,9 @@
  > ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bQ@nikash.homes:443?plugin=v2ray-plugin%3Bpath%3D%2Frabbitmq%3Bmux%3D2%3Bloglevel%3Dnone%3Bhost%3Dnikash.homes%3Btls
  ### iOS: 
  > ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bUBuaWthc2guaG9tZXM6NDQz?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yYWJiaXRtcSIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0IjoibmlrYXNoLmhvbWVzIiwibW9kZSI6IndlYnNvY2tldCIsInRscyI6dHJ1ZX0K
+
+## javadp.homes
+### Android: 
+ > ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bQ@javadp.homes:443?plugin=v2ray-plugin%3Bpath%3D%2Frabbitmq%3Bmux%3D2%3Bloglevel%3Dnone%3Bhost%3Djavadp.homes%3Btls
+### iOS: 
+ > ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bUBqYXZhZHAuaG9tZXM6NDQz?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yYWJiaXRtcSIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0IjoiamF2YWRwLmhvbWVzIiwibW9kZSI6IndlYnNvY2tldCIsInRscyI6dHJ1ZX0K
