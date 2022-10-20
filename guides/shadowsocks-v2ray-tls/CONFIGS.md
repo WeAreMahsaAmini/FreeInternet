@@ -40,3 +40,14 @@
  > ss://YWVzLTI1Ni1nY206Q2hzMkphc3Fxb0RWMW5TcHJYcjZAbWFtaW5pbW9vby5ob21lczo0NDM?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yYWJiaXRtcSIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0IjoibWFtaW5pbW9vby5ob21lcyIsIm1vZGUiOiJ3ZWJzb2NrZXQiLCJ0bHMiOnRydWV9Cg
 
 
+## s2.letsdoittogethernow.moster
+### Android:
+> ss://YWVzLTI1Ni1nY206TWFoc2FBbWluaQ@s2.letsdoittogethernow.monster/testme:443?plugin=v2ray-plugin%3Btls%3Bhost%3Ds2.letsdoittogethernow.monster%3Bloglevel%3Dnone%3Bpath%3D/testme
+### IOS: 
+> ss://YWVzLTI1Ni1nY206TWFoc2FBbWluaUBzMi5sZXRzZG9pdHRvZ2V0aGVybm93Lm1vbnN0ZXI6NDQz?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC90ZXN0bWUiLCJtdXgiOnRydWUsInRmbyI6dHJ1ZSwiaG9zdCI6InMyLmxldHNkb2l0dG9nZXRoZXJub3cubW9uc3RlciIsIm1vZGUiOiJ3ZWJzb2NrZXQiLCJ0bHMiOnRydWV9
+
+## s3.letsdoittogethernow.moster
+### Android:
+> ss://YWVzLTI1Ni1nY206TWFoc2FBbWluaQ@s3.letsdoittogethernow.monster:443?plugin=v2ray-plugin%3Btls%3Bhost%3Ds3.letsdoittogethernow.monster%3Bloglevel%3Dnone%3Bpath%3D/testme
+### IOS:
+> ss://YWVzLTI1Ni1nY206TWFoc2FBbWluaUBzMy5sZXRzZG9pdHRvZ2V0aGVybm93Lm1vbnN0ZXI6NDQz?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC90ZXN0bWUiLCJtdXgiOnRydWUsInRmbyI6dHJ1ZSwiaG9zdCI6InMzLmxldHNkb2l0dG9nZXRoZXJub3cubW9uc3RlciIsIm1vZGUiOiJ3ZWJzb2NrZXQiLCJ0bHMiOnRydWV9
