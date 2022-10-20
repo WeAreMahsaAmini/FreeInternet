@@ -39,4 +39,8 @@
  ### iOS: 
  > ss://YWVzLTI1Ni1nY206Q2hzMkphc3Fxb0RWMW5TcHJYcjZAbWFtaW5pbW9vby5ob21lczo0NDM?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yYWJiaXRtcSIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0IjoibWFtaW5pbW9vby5ob21lcyIsIm1vZGUiOiJ3ZWJzb2NrZXQiLCJ0bHMiOnRydWV9Cg
 
-
+ ## nikash.homes
+ ### Android: 
+ > ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bQ@nikash.homes:443?plugin=v2ray-plugin%3Bpath%3D%2Frabbitmq%3Bmux%3D2%3Bloglevel%3Dnone%3Bhost%3Dnikash.homes%3Btls
+ ### iOS: 
+ > ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bUBuaWthc2guaG9tZXM6NDQz?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yYWJiaXRtcSIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0IjoibmlrYXNoLmhvbWVzIiwibW9kZSI6IndlYnNvY2tldCIsInRscyI6dHJ1ZX0K
