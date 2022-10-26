@@ -65,3 +65,10 @@
 > ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bUBqYXZhZHAuaG9tZXM6NDQz?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yYWJiaXRtcSIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0IjoiamF2YWRwLmhvbWVzIiwibW9kZSI6IndlYnNvY2tldCIsInRscyI6dHJ1ZX0K
 
 
+## miegimp.hair
+### Android:
+> ss://YWVzLTI1Ni1nY206TWFoc2FBbWluaQ@miegimp.hair:443?plugin=v2ray-plugin%3Btls%3Bhost%3Dmiegimp.hair%3Bloglevel%3Dnone%3Bpath%3D/rabbitmq
+### iOS:
+> ss://YWVzLTI1Ni1nY206TWFoc2FBbWluaUBtaWVnaW1wLmhhaXI6NDQz?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yYWJiaXRtcSIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0IjoibWllZ2ltcC5oYWlyIiwibW9kZSI6IndlYnNvY2tldCIsInRscyI6dHJ1ZX0
+
+
