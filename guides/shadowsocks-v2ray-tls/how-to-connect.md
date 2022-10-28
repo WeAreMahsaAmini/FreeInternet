@@ -40,7 +40,7 @@
 
 > email: lisbontime1@proton.me
 
-> password: #mahsaAmini1
+> password: 2#MahsaAmini
 
 <div dir="rtl">
 
