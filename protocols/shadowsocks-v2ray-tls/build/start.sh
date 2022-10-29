@@ -15,6 +15,7 @@ if [ "$1" == "daemon" ]; then
   touch $KEY_PATH; chmod 644 $KEY_PATH
 
   RENEW_SKIP=2
+  acme.sh --set-default-ca --server letsencrypt
   acme.sh --register-account -m mahsa@"${DOMAIN}"
   acme.sh --issue -d "$DOMAIN" --standalone --keylength ec-256 --reloadcmd "$RELOADCMD" \
       --key-file "$KEY_PATH" --fullchain-file "$CERT_PATH"
