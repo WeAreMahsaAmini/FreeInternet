@@ -61,7 +61,8 @@
 
 <div dir="rtl">
 
-# ویندوز 
+# ویندوز
+### روش اول (shadowsocks windows)
 1. ابتدا برنامه Shadowsocks را از طریق این [سایت](https://github.com/shadowsocks/shadowsocks-windows/releases/tag/4.4.1.0) دانلود کنید, دقت کنید که فایلی که پسوندش zip. است را دانلود کنید.
 2. فایل دانلود شده را از حالت فشرده خارج کنید, بعد از انجام, فایل قابل اجرای Shadowsocks را مشاهده میکنید.
 3. پلاگین V2ray را از طریق این [سایت](https://github.com/shadowsocks/v2ray-plugin/releases/tag/v1.3.2) مناسب با سیستم عامل خود دانلود کنید, احتمالا گزینه ی مناسب فایل v2ray-plugin-windows-amd64-v1.3.2.tar.gz است.
@@ -80,12 +81,31 @@
  3. برای اضافه کردن سرور مراحل 5,7,8,9,10 را دنبال کنید.
  4. دقت کنید که مسیر پلاگین حتما درست باشد.
  5. برای تغییر بین سرور های اضافه شده میتوانید روی ایکون Shaodwsocks کلیک راست کنید و از قسمت Server سرور های اضافه شده را ببینید و انتخاب کنید.
+ 
+ ### روش دوم ([nekoray](https://github.com/MatsuriDayo/nekoray/releases/))
+ 1. فایل zip نسخه ویندوزی nekoray را از [این لینک](https://github.com/MatsuriDayo/nekoray/releases/download/2.2/nekoray-2.2-2022-10-30-windows64.zip) دانلود و اکسترکت کنید. و فایل nekoray.exe را اجرا کنید تا نرم افزار باز شود.
+ 2. برای اضافه کردن سرور یکی از url ها را کپی کنید و سپس برروی گزینه Servers کلیک کنید و گزینه Add profile from clipboard را انتخاب کنید تا سرور اضافه شود.
+ 3. برای اتصال برروی نام سرور کلیک راست کنید و گزینه start را انتخاب کنید.
+ 4. برای اینکه ترافیک مرورگر chrome و سایر اپلیکیشن هایی که تنظیمات پروکسی را مستقیم از سیستم عامل دریافت میکنند از پروکسی عبور کند گزینه System Proxy را تیک بزنید.
+ 5. برای اینکه کل ترافیک سیستم شما از طریق پروکسی عبور کند گزینه Vpn Mode را تیک بزنید.
+ 
+### توجه
+ 1. گزینه های System Proxy و Vpn Mode همزمان نمیتوانند فعال باشند.
+ 2. برای استفاده از مروگر Chrome و Edge و بسیاری از برنامه های دیگر استفاده از System Proxy کفایت میکند.
+ 3. تنظیمات Firefox به صورت جدا از قسمت Proxy این مرورگر قابل ست کردن است. 
+ 4. پورت پروکسی socks و http در پایین صفحه نرم افزار nekoray نوشته شده و قابل تغییر است.
+ 5. از url هایی که با //:ss شروع میشوند و برای اندروید آماده شده اند برای ادد کردن سرور به nekoray استفاده کنید.
+ 
  ### [لیست تمام سرور ها](CONFIGS.md)
 
+ 
+
+ 
           
 </div>
 
 # لینوکس
+### روش اول (shadowsocks-libev)
 
 ۱. نرم‌افزار shadowsocks-libev را نصب کنید. برای نصب این برنامه می‌توانید از پکیج منیجر استفاده کنید. مثلاً در اوبونتو با `sudo apt install shadowsocks-libev`. همچنین می‌توانید آخرین ورژن برنامه را از [این محل](https://github.com/shadowsocks/shadowsocks-libev/releases) دریافت کنید. برای چک کردن این که آیا نرم‌افزار نصب است، دستور `ss-local` را در ترمینال امتحان کنید.
 
@@ -137,4 +157,27 @@ export ALL_PROXY=socks://127.0.0.1:1080/
 export all_proxy=socks://127.0.0.1:1080/
 ```
 
+
+ ### روش دوم ([nekoray](https://github.com/MatsuriDayo/nekoray/releases/))
+ 1. فایل zip نسخه لینوکسی nekoray را از [این لینک](https://github.com/MatsuriDayo/nekoray/releases/download/2.2/nekoray-2.2-2022-10-30-linux64.zip) دانلود و اکسترکت کنید. و فایل launcher را اجرا کنید تا نرم افزار باز شود.
+ 2. برای اضافه کردن سرور یکی از url ها را کپی کنید و سپس برروی گزینه Servers کلیک کنید و گزینه Add profile from clipboard را انتخاب کنید تا سرور اضافه شود.
+ 3. برای اتصال برروی نام سرور کلیک راست کنید و گزینه start را انتخاب کنید.
+ 4. برای اینکه ترافیک مرورگر chrome و سایر اپلیکیشن هایی که تنظیمات پروکسی را مستقیم از سیستم عامل دریافت میکنند از پروکسی عبور کند گزینه System Proxy را تیک بزنید.
+ 5. برای اینکه کل ترافیک سیستم شما از طریق پروکسی عبور کند گزینه Vpn Mode را تیک بزنید.
+ 
+### [توجه](https://github.com/WeAreMahsaAmini/FreeInternet/edit/main/guides/shadowsocks-v2ray-tls/how-to-connect.md#%D8%AA%D9%88%D8%AC%D9%87-1)
+
 ### [لیست تمام سرور ها](CONFIGS.md)
+
+# مک MacOS
+### استفاده از ([nekoray](https://github.com/MatsuriDayo/nekoray/releases/))
+ 1. فایل dmg نسخه مک nekoray را از [این لینک](https://github.com/MatsuriDayo/nekoray/releases/download/2.2/nekoray-2.2-2022-10-30-macos-amd64.dmg) دانلود و اکسترکت کنید. و فایل nekoray را اجرا کنید تا نرم افزار باز شود.
+ 2. برای اضافه کردن سرور یکی از url ها را کپی کنید و سپس برروی گزینه Servers کلیک کنید و گزینه Add profile from clipboard را انتخاب کنید تا سرور اضافه شود.
+ 3. برای اتصال برروی نام سرور کلیک راست کنید و گزینه start را انتخاب کنید.
+ 4. برای اینکه ترافیک مرورگر chrome و سایر اپلیکیشن هایی که تنظیمات پروکسی را مستقیم از سیستم عامل دریافت میکنند از پروکسی عبور کند گزینه System Proxy را تیک بزنید.
+ 5. برای اینکه کل ترافیک سیستم شما از طریق پروکسی عبور کند گزینه Vpn Mode را تیک بزنید.
+
+### [توجه](https://github.com/WeAreMahsaAmini/FreeInternet/edit/main/guides/shadowsocks-v2ray-tls/how-to-connect.md#%D8%AA%D9%88%D8%AC%D9%87-1)
+ 
+### [لیست تمام سرور ها](CONFIGS.md)
+
