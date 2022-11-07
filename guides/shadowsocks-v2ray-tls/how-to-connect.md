@@ -4,16 +4,16 @@
 
 1. ابتدا دوتا برنامه زیر را نصب کنید.
 
-[Shadowsocks](https://play.google.com/store/apps/details?id=com.github.shadowsocks) 
+[Shadowsocks [Play Store]](https://play.google.com/store/apps/details?id=com.github.shadowsocks) 
 
-[V2ray Plugin](https://play.google.com/store/apps/details?id=com.github.shadowsocks.plugin.v2ray)
+[V2ray Plugin [Play Store]](https://play.google.com/store/apps/details?id=com.github.shadowsocks.plugin.v2ray)
 
 کاربرانی که نمیتوانند به Play Store متصل شن، فایل های نصبی رو از لینک های زیر میتوانند دانلود کنند.
 
 
-[Shadowsocks APK](https://github.com/shadowsocks/shadowsocks-android/releases/download/v5.2.6/shadowsocks--universal-v5.2.6.apk)
+[Shadowsocks [APK]](https://github.com/shadowsocks/shadowsocks-android/releases/download/v5.2.6/shadowsocks--universal-v5.2.6.apk)
 
- [V2ray Plugin APK](https://github.com/shadowsocks/v2ray-plugin-android/releases/download/v1.3.3/v2ray--universal-1.3.3.apk)
+[V2ray Plugin [APK]](https://github.com/shadowsocks/v2ray-plugin-android/releases/download/v1.3.3/v2ray--universal-1.3.3.apk)
 
 2. یکی از کدهای زیر را کپی کنید.
 3. وارد برنامه shadowsocks بشید.
