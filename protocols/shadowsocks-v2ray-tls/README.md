@@ -53,7 +53,7 @@ After your domain nameservers changed successfully (depending on the registrar, 
 
 ```bash
 git clone https://github.com/WeAreMahsaAmini/FreeInternet.git
-cd protocols/shadowsocks-v2ray-tls/
+cd FreeInternet/protocols/shadowsocks-v2ray-tls/
 ```
 
 5. Edit the `.env` file.
