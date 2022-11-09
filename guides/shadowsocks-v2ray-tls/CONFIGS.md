@@ -20,11 +20,11 @@
 > ss://YWVzLTI1Ni1nY206TWFoc2FBbWluaUBnaW1wbWllLmhhaXI6NDQz?tfo=1&uot=1&v2ray-plugin=eyJwYXRoIjoicmFiYml0bXEiLCJtdXgiOnRydWUsInRmbyI6dHJ1ZSwiaG9zdCI6ImdpbXBtaWUuaGFpciIsIm1vZGUiOiJ3ZWJzb2NrZXQiLCJ0bHMiOnRydWV9
 
 
-## maminimooo.homes
+## khodanourl.homes
 ### Android: 
-> ss://YWVzLTI1Ni1nY206Q2hzMkphc3Fxb0RWMW5TcHJYcjY@maminimooo.homes:443?plugin=v2ray-plugin%3Bpath%3D%2Frabbitmq%3Bmux%3D2%3Bloglevel%3Dnone%3Bhost%3Dmaminimooo.homes%3Btls
+> ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bQ@khodanourl.homes:443?plugin=v2ray-plugin%3Bpath%3D%2Frabbitmq%3Bmux%3D2%3Bloglevel%3Dnone%3Bhost%3Dkhodanourl.homes%3Btls
 ### iOS: 
-> ss://YWVzLTI1Ni1nY206Q2hzMkphc3Fxb0RWMW5TcHJYcjZAbWFtaW5pbW9vby5ob21lczo0NDM?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yYWJiaXRtcSIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0IjoibWFtaW5pbW9vby5ob21lcyIsIm1vZGUiOiJ3ZWJzb2NrZXQiLCJ0bHMiOnRydWV9Cg
+> ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bUBraG9kYW5vdXJsLmhvbWVzOjQ0Mw?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yYWJiaXRtcSIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0Ijoia2hvZGFub3VybC5ob21lcyIsIm1vZGUiOiJ3ZWJzb2NrZXQiLCJ0bHMiOnRydWV9Cg
 
 ## nikash.homes
 ### Android: 
