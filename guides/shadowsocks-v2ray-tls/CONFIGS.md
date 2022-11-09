@@ -1,10 +1,10 @@
 # Configs
 
-## aiohekl.monster
+## hadis.connectme.uno
 ### Android
-> ss://YWVzLTI1Ni1nY206WDhDZWN1Y2QyTUZtclJYVGJCcmk@aiohekl.monster:443?plugin=v2ray-plugin%3Bpath%3D%2Fredis%3Bhost%3Daiohekl.monster%3Btls
+> ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxZE5jRHoxTWV2VEhjNVQxZFZuVFdKYWN2@hadis.connectme.uno:443?plugin=v2ray-plugin%3Bpath%3D%2Findex%3Bmux%3D2%3Bloglevel%3Dnone%3Bhost%3Dhadis.connectme.uno%3Btls#ForHadis
 ### IOS
-> ss://YWVzLTI1Ni1nY206WDhDZWN1Y2QyTUZtclJYVGJCcmlAYWlvaGVrbC5tb25zdGVyOjQ0Mw?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yZWRpcyIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0IjoiYWlvaGVrbC5tb25zdGVyIiwibW9kZSI6IndlYnNvY2tldCIsInRscyI6dHJ1ZX0
+> ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxZE5jRHoxTWV2VEhjNVQxZFZuVFdKYWN2QGhhZGlzLmNvbm5lY3RtZS51bm86NDQz?tfo=1&v2ray-plugin=eyJ0bHMiOnRydWUsIm11eCI6dHJ1ZSwibW9kZSI6IndlYnNvY2tldCIsImFsbG93SW5zZWN1cmUiOnRydWUsImhvc3QiOiJoYWRpcy5jb25uZWN0bWUudW5vIiwidGZvIjp0cnVlLCJwYXRoIjoiXC9pbmRleCJ9#ForHadis
 
 ## sarina.iinazlata.info
 ### Android
