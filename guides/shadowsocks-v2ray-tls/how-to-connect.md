@@ -83,7 +83,7 @@
  5. برای تغییر بین سرور های اضافه شده میتوانید روی ایکون Shaodwsocks کلیک راست کنید و از قسمت Server سرور های اضافه شده را ببینید و انتخاب کنید.
  
  ### روش دوم ([nekoray](https://github.com/MatsuriDayo/nekoray/releases/))
- 1. فایل zip نسخه ویندوزی nekoray را از [این لینک](https://github.com/MatsuriDayo/nekoray/releases/download/2.2/nekoray-2.2-2022-10-30-windows64.zip) دانلود و اکسترکت کنید. و فایل nekoray.exe را اجرا کنید تا نرم افزار باز شود.
+ 1. فایل zip نسخه ویندوزی nekoray را از [این لینک](https://github.com/MatsuriDayo/nekoray/releases/download/2.3/nekoray-2.3-2022-11-09-windows64.zip) دانلود و اکسترکت کنید. و فایل nekoray.exe را اجرا کنید تا نرم افزار باز شود.
  2. برای اضافه کردن سرور یکی از url ها را کپی کنید و سپس برروی گزینه Servers کلیک کنید و گزینه Add profile from clipboard را انتخاب کنید تا سرور اضافه شود.
  3. برای اتصال برروی نام سرور کلیک راست کنید و گزینه start را انتخاب کنید.
  4. برای اینکه ترافیک مرورگر chrome و سایر اپلیکیشن هایی که تنظیمات پروکسی را مستقیم از سیستم عامل دریافت میکنند از پروکسی عبور کند گزینه System Proxy را تیک بزنید.
@@ -159,7 +159,7 @@ export all_proxy=socks://127.0.0.1:1080/
 
 
  ### روش دوم ([nekoray](https://github.com/MatsuriDayo/nekoray/releases/))
- 1. فایل zip نسخه لینوکسی nekoray را از [این لینک](https://github.com/MatsuriDayo/nekoray/releases/download/2.2/nekoray-2.2-2022-10-30-linux64.zip) دانلود و اکسترکت کنید. و فایل launcher را اجرا کنید تا نرم افزار باز شود.
+ 1. فایل zip نسخه لینوکسی nekoray را از [این لینک](https://github.com/MatsuriDayo/nekoray/releases/download/2.3/nekoray-2.3-2022-11-09-linux64.zip) دانلود و اکسترکت کنید. و فایل launcher را اجرا کنید تا نرم افزار باز شود.
  2. برای اضافه کردن سرور یکی از url ها را کپی کنید و سپس برروی گزینه Servers کلیک کنید و گزینه Add profile from clipboard را انتخاب کنید تا سرور اضافه شود.
  3. برای اتصال برروی نام سرور کلیک راست کنید و گزینه start را انتخاب کنید.
  4. برای اینکه ترافیک مرورگر chrome و سایر اپلیکیشن هایی که تنظیمات پروکسی را مستقیم از سیستم عامل دریافت میکنند از پروکسی عبور کند گزینه System Proxy را تیک بزنید.
@@ -171,7 +171,7 @@ export all_proxy=socks://127.0.0.1:1080/
 
 # مک MacOS
 ### استفاده از ([nekoray](https://github.com/MatsuriDayo/nekoray/releases/))
- 1. فایل dmg نسخه مک nekoray را از [این لینک](https://github.com/MatsuriDayo/nekoray/releases/download/2.2/nekoray-2.2-2022-10-30-macos-amd64.dmg) دانلود و اکسترکت کنید. و فایل nekoray را اجرا کنید تا نرم افزار باز شود.
+ 1. فایل dmg نسخه مک nekoray را از [این لینک](https://github.com/MatsuriDayo/nekoray/releases/download/2.3/nekoray-2.3-2022-11-09-macos-amd64.dmg) دانلود و اکسترکت کنید. و فایل nekoray را اجرا کنید تا نرم افزار باز شود.
  2. برای اضافه کردن سرور یکی از url ها را کپی کنید و سپس برروی گزینه Servers کلیک کنید و گزینه Add profile from clipboard را انتخاب کنید تا سرور اضافه شود.
  3. برای اتصال برروی نام سرور کلیک راست کنید و گزینه start را انتخاب کنید.
  4. برای اینکه ترافیک مرورگر chrome و سایر اپلیکیشن هایی که تنظیمات پروکسی را مستقیم از سیستم عامل دریافت میکنند از پروکسی عبور کند گزینه System Proxy را تیک بزنید.
