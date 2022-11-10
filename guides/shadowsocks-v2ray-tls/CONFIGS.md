@@ -44,6 +44,13 @@
 ### iOS: 
 > ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bUBhc3JhcC5ob21lczo0NDM?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yYWJiaXRtcSIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0IjoiYXNyYXAuaG9tZXMiLCJtb2RlIjoid2Vic29ja2V0IiwidGxzIjp0cnVlfQo
 
+## maminimooo.homes (Please delete the old one if you have it already and copy this)
+### Android: 
+> ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bQ@maminimooo.homes:443?plugin=v2ray-plugin%3Bpath%3D%2Frabbitmq%3Bmux%3D2%3Bloglevel%3Dnone%3Bhost%3Dmaminimooo.homes%3Btls
+
+### iOS: 
+> ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bUBtYW1pbmltb29vLmhvbWVzOjQ0Mw?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yYWJiaXRtcSIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0IjoibWFtaW5pbW9vby5ob21lcyIsIm1vZGUiOiJ3ZWJzb2NrZXQiLCJ0bHMiOnRydWV9Cg
+
 
 ## miegimp.hair
 ### Android:
