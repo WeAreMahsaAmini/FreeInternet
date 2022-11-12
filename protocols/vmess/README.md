@@ -30,7 +30,7 @@ Add the following to the `docker-compose.yaml` file and save:
 version: "3"
 services:
   v2ray443:
-    image: v2fly/v2fly-core
+    image: v2fly/v2fly-core:v4.45.2
     restart: always
     network_mode: host
     environment:
