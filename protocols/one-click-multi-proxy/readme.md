@@ -17,3 +17,5 @@ https://hiddify.github.io/setup-proxy-one-click.html
 It doesn't need any docker so you can run it in cheap VPS : [lists](https://github.com/hiddify/awesome-iran-freedom/blob/main/vps-providers.md)
 
 To add support for CDN, please follow the instuction in advanced setup in that page.
+
+After setting up your server, you can add a link to it (to its private help page) in the guides/multiproxy/how-to-connect.md file. Open a PR and request for your config to be merged.
