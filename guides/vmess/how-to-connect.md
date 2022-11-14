@@ -19,3 +19,33 @@ TLS: off
 Websocket: ON
 WS Path: /graphql
 ```
+
+## 3- (optional)
+In order to bypass the proxy as a dicret access to domains ending with `.ir`, do the following procedure in your client app:
+
+### NekoRay
+
+Go to <kbd>Program</kbd> --> <kbd>Preferences</kbd> --> <kbd>Routing Settings</kbd> --> <kbd>Custom</kbd>, add the following JSON:
+
+```
+{
+    "rules": [
+        {
+            "domain": [
+                "regexp:.*\.ir(/.*|$)"
+            ],
+            "outboundTag": "direct",
+            "type": "field"
+        }
+    ]
+}
+```
+
+### v2ray-core
+
+Append the above config section into the `config.json` file. 
+
+### v2rayNG
+
+Just append `.ir,` into the <kbd>Settings</kbd> --> Custom rules (Routing) --> <kbd>Direct URL it IP</kbd>
+
