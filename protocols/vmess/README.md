@@ -166,7 +166,7 @@ Replace `NON_IR_IP` with your non-IR server IP address and run the command:
 ```sh
 sudo sed -i 's/xx.xx.xx.xx/NON_IR_IP/g' /etc/iptables/rules.v4
 ```
-This will replace all occurences of `xx.xx.xx.xx` with the actual IP address of your non-IR server.
+This will replace all occurrences of `xx.xx.xx.xx` with the actual IP address of your non-IR server.
 
 ### 4-
 ```sh
