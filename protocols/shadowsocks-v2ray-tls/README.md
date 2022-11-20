@@ -7,7 +7,7 @@
 
 1. Buy a simple server (VPS) for 5 dollars outside Iran. [List of cloud server providers.](https://github.com/hiddify/awesome-iran-freedom/blob/main/vps-providers.md)
 2. Buy a cheap domain for 2 dollars.
-3. Create an Arvancloud account. It only needs an email address and a phone number (both Iranian and international phone numbers accepted)
+3. Create an [Arvancloud](https://www.arvancloud.ir/) account. It only needs an email address and a phone number (both Iranian and international phone numbers accepted)
 
 ---
 
