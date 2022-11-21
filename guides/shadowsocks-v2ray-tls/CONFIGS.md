@@ -26,11 +26,11 @@
 ### iOS: 
 > ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bUBraG9kYW5vdXJsLmhvbWVzOjQ0Mw?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yYWJiaXRtcSIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0Ijoia2hvZGFub3VybC5ob21lcyIsIm1vZGUiOiJ3ZWJzb2NrZXQiLCJ0bHMiOnRydWV9Cg
 
-## nikash.homes
+## ghazalehch.homes
 ### Android: 
-> ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bQ@nikash.homes:443?plugin=v2ray-plugin%3Bpath%3D%2Frabbitmq%3Bmux%3D2%3Bloglevel%3Dnone%3Bhost%3Dnikash.homes%3Btls
+> ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3dUpuMytreXBrUXtt@ghazalehch.homes:443?plugin=v2ray-plugin%3Bpath%3D%2Frabbitmq%3Bmux%3D2%3Bloglevel%3Dnone%3Bhost%3Dghazalehch.homes%3Btls
 ### iOS: 
-> ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bUBuaWthc2guaG9tZXM6NDQz?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yYWJiaXRtcSIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0IjoibmlrYXNoLmhvbWVzIiwibW9kZSI6IndlYnNvY2tldCIsInRscyI6dHJ1ZX0K
+> ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3dUpuMytreXBrUXttQGdoYXphbGVoY2guaG9tZXM6NDQz?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yYWJiaXRtcSIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0IjoiZ2hhemFsZWhjaC5ob21lcyIsIm1vZGUiOiJ3ZWJzb2NrZXQiLCJ0bHMiOnRydWV9Cg
 
 ## javadp.homes
 ### Android: 
