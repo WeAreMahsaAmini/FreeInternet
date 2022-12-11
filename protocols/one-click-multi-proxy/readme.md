@@ -1,10 +1,13 @@
 This website provides a simple multi proxy method.
+- OneClick even without ssh
 - Telegram Proxy (faketls with fallback)
 - Shadowsocks+obfs (faketls with fallback)
 - Shadowsocks+v2ray (cdn support)
+- trojan-go (cdn support)
 - vmess (cdn support)
 - DNS over HTTPS (cdn support)
 - Redirector (cdn support)
+- usage report
 - Automatic use proxy for non-Iranian sites
 - Active probing resistant
 
@@ -12,7 +15,11 @@ What you need is just a VPS with an ip and a subdomain (you can use free subdoma
 
 Just type your subdomain and secret and run the command in the VPS. 
 
-https://hiddify.github.io/setup-proxy-one-click.html
+All the information exist in: https://github.com/hiddify/hiddify-config/
+
+
+![صفحه راهنمای کاربران](https://user-images.githubusercontent.com/114227601/206908372-db1fc206-4c6a-4206-ad39-e6b6b44a55c4.png)
+
 
 It doesn't need any docker so you can run it in cheap VPS : [lists](https://github.com/hiddify/awesome-iran-freedom/blob/main/vps-providers.md)
 
