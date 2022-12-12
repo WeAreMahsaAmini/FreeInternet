@@ -1,4 +1,8 @@
-# VMess Proxy with an IR server as a router 
+# Two ways
+ 1. ![Automated script for Vmess, Vless, and other protocols installation](https://github.com/WeAreMahsaAmini/FreeInternet/edit/main/protocols/vmess/README.md#automated-installation-script)
+ 2. Use the below content 
+
+## VMess Proxy with an IR server as a router 
 
 In this toturial it's assumed that you already have a server (VPS) in Iran and another one outside of the Iran.
 
@@ -186,3 +190,35 @@ sudo systemctl restart iptables.service
 ```
 
 Now head over to the guides directory for instructions on how to connect to your server using a Vmess client.
+
+## Automated installation script
+You can use https://github.com/SonyaCore/V2RayGen script to generate **{ Vmess, Shadowsocks, Vless }**
+### **Usage**
+
+`curl https://raw.githubusercontent.com/SonyaCore/V2RayGen/main/V2RayGen.py | python3 - -h`
+
+![Sample](https://raw.githubusercontent.com/SonyaCore/V2RayGen/main/contents/content1.png)
+
+### **QuickSetup**
+
+You can use one of the following protocols for installation and change its settings according to your needs.
+
+| Protoctol   | Argument            |
+| ----------- | ------------------- |
+| VMESS       | --vmess , -wm       |
+| VMESS + TLS | --vmesstls , -vmtls |
+| VLESS + TLS | --vless , -vl       |
+
+### **Quick `Xray` Setup with Default Setting** :
+
+```bash
+curl https://raw.githubusercontent.com/SonyaCore/V2RayGen/main/V2RayGen.py | sudo python3 - --vmess
+```
+
+OR
+
+```bash
+curl https://raw.githubusercontent.com/SonyaCore/V2RayGen/main/V2RayGen.py --output V2RayGen.py
+sudo python3 V2RayGen.py --vmess
+```
+![sample](https://raw.githubusercontent.com/SonyaCore/V2RayGen/main/contents/content3.png)
