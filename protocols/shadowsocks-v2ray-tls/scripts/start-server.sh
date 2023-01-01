@@ -14,7 +14,7 @@ android_url () {
 ios_url () {
     ios_encoded_M_P=$(echo -n "$METHOD:$PASSWORD@$DOMAIN:443" | base64);
     ios_encoded_M_P=$(echo "$ios_encoded_M_P" | sed -e "s/=//g")
-    ios_plugin_opts=$(echo "{\"path\":\"\\$URL_PATH\",\"mux\":true,\"tfo\":true,\"host\":\"$DOMAIN\",\"mode\":\"websocket\",\"tls\":true}" | base64 -w 0);
+    ios_plugin_opts=$(echo "{\"path\":\"\\$URL_PATH\",\"mux\":true,\"tfo\":true,\"host\":\"$DOMAIN\",\"mode\":\"websocket\",\"tls\":true,\"allowInsecure\":true}" | base64 -w 0);
     ios_plugin_opts=$(echo "$ios_plugin_opts" | sed -e "s/=//g")
     IOS_URL="ss://$ios_encoded_M_P?tfo=1&v2ray-plugin=$ios_plugin_opts"
 }
