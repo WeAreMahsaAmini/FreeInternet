@@ -13,7 +13,7 @@
 
 [Shadowsocks [APK]](https://github.com/shadowsocks/shadowsocks-android/releases/download/v5.2.6/shadowsocks--universal-v5.2.6.apk)
 
-[V2ray Plugin [APK]](https://github.com/teddysun/v2ray-plugin-android/releases/download/v5.1.0/v2ray-plugin-universal-v5.1.0.apk)
+[V2ray Plugin [APK]](https://github.com/shadowsocks/v2ray-plugin-android/releases/download/v1.3.3/v2ray--universal-1.3.3.apk)
 
 2. یکی از کدهای زیر را کپی کنید.
 3. وارد برنامه shadowsocks بشید.
