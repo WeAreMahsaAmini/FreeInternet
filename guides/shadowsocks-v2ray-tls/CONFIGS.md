@@ -20,31 +20,6 @@
 > ss://YWVzLTI1Ni1nY206TWFoc2FBbWluaUBnaW1wbWllLmhhaXI6NDQz?tfo=1&uot=1&v2ray-plugin=eyJwYXRoIjoicmFiYml0bXEiLCJtdXgiOnRydWUsInRmbyI6dHJ1ZSwiaG9zdCI6ImdpbXBtaWUuaGFpciIsIm1vZGUiOiJ3ZWJzb2NrZXQiLCJ0bHMiOnRydWV9
 
 
-## khodanourl.homes
-### Android: 
-> ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bQ@khodanourl.homes:443?plugin=v2ray-plugin%3Bpath%3D%2Frabbitmq%3Bmux%3D2%3Bloglevel%3Dnone%3Bhost%3Dkhodanourl.homes%3Btls
-### iOS: 
-> ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bUBraG9kYW5vdXJsLmhvbWVzOjQ0Mw?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yYWJiaXRtcSIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0Ijoia2hvZGFub3VybC5ob21lcyIsIm1vZGUiOiJ3ZWJzb2NrZXQiLCJ0bHMiOnRydWV9Cg
-
-## ghazalehch.homes
-### Android: 
-> ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3dUpuMytreXBrUXtt@ghazalehch.homes:443?plugin=v2ray-plugin%3Bpath%3D%2Frabbitmq%3Bmux%3D2%3Bloglevel%3Dnone%3Bhost%3Dghazalehch.homes%3Btls
-### iOS: 
-> ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3dUpuMytreXBrUXttQGdoYXphbGVoY2guaG9tZXM6NDQz?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yYWJiaXRtcSIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0IjoiZ2hhemFsZWhjaC5ob21lcyIsIm1vZGUiOiJ3ZWJzb2NrZXQiLCJ0bHMiOnRydWV9Cg
-
-## javadp.homes
-### Android: 
-> ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bQ@javadp.homes:443?plugin=v2ray-plugin%3Bpath%3D%2Frabbitmq%3Bmux%3D2%3Bloglevel%3Dnone%3Bhost%3Djavadp.homes%3Btls
-### iOS: 
-> ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bUBqYXZhZHAuaG9tZXM6NDQz?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yYWJiaXRtcSIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0IjoiamF2YWRwLmhvbWVzIiwibW9kZSI6IndlYnNvY2tldCIsInRscyI6dHJ1ZX0K
-
-## asrap.homes
-### Android: 
-> ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bQ@asrap.homes:443?plugin=v2ray-plugin%3Bpath%3D%2Frabbitmq%3Bmux%3D2%3Bloglevel%3Dnone%3Bhost%3Dasrap.homes%3Btls
-### iOS: 
-> ss://YWVzLTI1Ni1nY206N3VKbjMra3lwa1F7bUBhc3JhcC5ob21lczo0NDM?tfo=1&v2ray-plugin=eyJwYXRoIjoiXC9yYWJiaXRtcSIsIm11eCI6dHJ1ZSwidGZvIjp0cnVlLCJob3N0IjoiYXNyYXAuaG9tZXMiLCJtb2RlIjoid2Vic29ja2V0IiwidGxzIjp0cnVlfQo
-
-
 ## miegimp.hair
 ### Android:
 > ss://YWVzLTI1Ni1nY206TWFoc2FBbWluaQ@miegimp.hair:443?plugin=v2ray-plugin%3Btls%3Bhost%3Dmiegimp.hair%3Bloglevel%3Dnone%3Bpath%3D/rabbitmq
